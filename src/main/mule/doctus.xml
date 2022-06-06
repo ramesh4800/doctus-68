@@ -134,7 +134,6 @@ output application/json
 }]]></ee:set-payload>
             </ee:message>
         </ee:transform>
-		<logger level="INFO" doc:name="Logger" doc:id="20c49355-b5ca-4b7f-8a22-50cd3cd436dc" message="In GET method"/>
     </flow>
     <flow name="post:\doctus\demo:application\json:doctus-config">
         <ee:transform xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
